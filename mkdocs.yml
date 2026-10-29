@@ -1,0 +1,20 @@
+site_name: My Docs
+site_url: http://127.0.0.1:8000/
+theme:
+  name: material
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+nav:
+  - Welcome: index.md
+
+  - API Documentation:
+      - Overview: api-docs.md
+      - API Endpoints: api-endpoints.md
+      - Error Handling: error-handling.md
