@@ -4,7 +4,7 @@
 
 **Resource:** stations
 
-This API manages EV charging station records and provides complete CRUD operations for charging stations. AMIT AHER.
+This API manages EV charging station records and provides complete CRUD operations for charging stations.
 
 ## Authentication
 
