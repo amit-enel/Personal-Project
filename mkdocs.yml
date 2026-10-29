@@ -8,10 +8,10 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.sections
     - navigation.path
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
 nav:
   - Welcome: index.md
 
@@ -19,3 +19,9 @@ nav:
       - Overview: api-docs.md
       - API Endpoints: api-endpoints.md
       - Error Handling: error-handling.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
