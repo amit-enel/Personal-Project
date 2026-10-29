@@ -1,5 +1,5 @@
-site_name: My Docs
-site_url: http://127.0.0.1:8000/
+site_name: My Documentation
+site_url: https://amit-enel.github.io/Personal-Project/
 theme:
   name: material
   palette:
