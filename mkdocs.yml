@@ -11,6 +11,7 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.top
+    - navigation.tabs
 nav:
   - Welcome: index.md
 
