@@ -1,4 +1,4 @@
-# EV Charging Stations - API Documentation
+# EV Charging Stations - API Documentation - AMIT AHER
 
 **Base URL:** "https://api.evcharging.mockapi.io/api/v1"
 
