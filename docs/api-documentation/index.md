@@ -1,10 +1,10 @@
-# EV Charging Stations - API Documentation - AMIT AHER
+# EV Charging Stations - API Documentation
 
 **Base URL:** "https://api.evcharging.mockapi.io/api/v1"
 
 **Resource:** stations
 
-This API manages EV charging station records and provides complete CRUD operations for charging stations.
+This API manages EV charging station records and provides complete CRUD operations for charging stations. AMIT AHER.
 
 ## Authentication
 
