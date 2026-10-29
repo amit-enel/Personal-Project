@@ -2,7 +2,7 @@
 
 ## Get All Charging Stations
 
-**GET** /stations
+**GET** /stations/amitaher
 
 **Description**
 
