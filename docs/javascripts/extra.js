@@ -8,7 +8,7 @@ function initializeApiDropdown() {
 
     const item = tab.closest(".md-tabs__item");
 
-    if (!item || item.querySelector(".md-tabs__dropdown")) {
+    if (!item || document.querySelector(".md-tabs__dropdown")) {
       return;
     }
 
@@ -16,15 +16,16 @@ function initializeApiDropdown() {
     dropdown.className = "md-tabs__dropdown";
 
     dropdown.innerHTML = `
-      <a href="${new URL("api-docs/", document.baseURI)}">Overview</a>
-      <a href="${new URL("api-endpoints/", document.baseURI)}">API Endpoints</a>
-      <a href="${new URL("error-handling/", document.baseURI)}">Error Handling</a>
+      <a href="/api-docs/">Overview</a>
+      <a href="/api-endpoints/">API Endpoints</a>
+      <a href="/error-handling/">Error Handling</a>
     `;
 
     document.body.appendChild(dropdown);
 
     function positionDropdown() {
       const rect = item.getBoundingClientRect();
+
       dropdown.style.left = `${rect.left}px`;
       dropdown.style.top = `${rect.bottom}px`;
     }
@@ -51,5 +52,8 @@ function initializeApiDropdown() {
 if (typeof document$ !== "undefined") {
   document$.subscribe(initializeApiDropdown);
 } else {
-  document.addEventListener("DOMContentLoaded", initializeApiDropdown);
+  document.addEventListener(
+    "DOMContentLoaded",
+    initializeApiDropdown
+  );
 }
