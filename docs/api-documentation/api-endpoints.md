@@ -1,8 +1,8 @@
 # API Endpoints
-
+This page provides reference information for the EV Charging Station API endpoints.
 ## Get All Charging Stations
 
-**GET** /stations/amitaher
+**GET** /stations/
 
 **Description**
 
